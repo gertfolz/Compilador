@@ -1,0 +1,9 @@
+data 
+{
+}
+int: main()
+{
+a = 0;
+print (a);
+}
+
