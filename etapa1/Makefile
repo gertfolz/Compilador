@@ -7,8 +7,8 @@
 # Therefore, there must be a header of it to be included in scanner.l
 #
 
-lexical_scanner: lex.yy.o main.o hash.o
-	gcc -o lexical_scanner lex.yy.o main.o hash.o
+etapa1: lex.yy.o main.o hash.o
+	gcc -o etapa1 lex.yy.o main.o hash.o
 
 main.o: main.c
 	gcc -c main.c
@@ -22,9 +22,9 @@ lex.yy.o: lex.yy.c
 lex.yy.c: scanner.l
 	flex --header-file=lex.yy.h scanner.l 
 clean:
-	rm *.o lex.yy.c lexical_scanner
+	rm *.o lex.yy.c etapa1
 
-remake: clean lexical_scanner
+remake: clean etapa1
 
 build: clean
-		tar cvzf lexical_scanner.tgz .
+		tar cvzf etapa1.tgz .

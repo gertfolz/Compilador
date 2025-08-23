@@ -2,6 +2,8 @@
 #define HASH_HEADER
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 #define HASH_SIZE 997
 
