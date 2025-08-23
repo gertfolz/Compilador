@@ -1,5 +1,5 @@
 /*
- *
+ * Compiladores - etapa1 - tokens.h - semestre ERE 2021/1 - M Johann
  *
  * Lista dos tokens, com valores constantes associados.
  * Este arquivo serah posterioremente substituido, nao acrescente nada.
@@ -12,7 +12,7 @@
 #define KW_CHAR           256
 #define KW_INT            257
 #define KW_FLOAT          258
-#define KW_BOOL           259
+#define KW_DATA           259
 
 #define KW_IF             261
 #define KW_ELSE           263

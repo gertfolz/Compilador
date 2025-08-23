@@ -59,6 +59,6 @@ int main (void) {
     printf("\nline_count: %d\n", getLineNumber());
 
     /* impressão da tabela de símbolos */
-    print_table();
+    hashPrint();
     return 0;
 }

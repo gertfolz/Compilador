@@ -1,10 +1,16 @@
  /* Gert Willem Folz - 00288550 
- * Trabalho 2 da disciplina de compiladores */
+ * Trabalho 1 da disciplina de compiladores */
 
 %{
+    #include "tokens.h"
     #include "hash.h"
-    #include "ast.h"
-    #include "y.tab.h" 
+
+    typedef union {
+        HASH_NODE *symbol;
+    } YYSTYPE;
+
+    extern YYSTYPE yylval;
+
     int running=1;
     int lineNumber=1;
     void hashInit();
