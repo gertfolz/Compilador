@@ -1,6 +1,3 @@
-/* Gert Willem Folz - 00288550 
- * Trabalho 5 da disciplina de compiladores */
-
 
 #include "ast.h"
 

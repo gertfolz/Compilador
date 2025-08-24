@@ -1,6 +1,3 @@
-# Gert Willem Folz - 00288550 
-# Trabalho 3 da disciplina de compiladores 
-
 etapa4: main.o lex.yy.o y.tab.o hash.o ast.o semantic.o
 	gcc main.o lex.yy.o y.tab.o hash.o ast.o semantic.o -o etapa4
 

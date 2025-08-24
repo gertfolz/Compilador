@@ -1,5 +1,5 @@
 #
-# UFRGS - Compiladores B - Marcelo Johann - 2009/2 - Etapa 1
+# UFRGS - Compiladores B
 #
 # Makefile for three compiler calls
 # Read the comments on Makefile2. All of them apply here too.

@@ -1,6 +1,4 @@
 /*
- * Compiladores - etapa1 - tokens.h - semestre ERE 2021/1 - M Johann
- *
  * Lista dos tokens, com valores constantes associados.
  * Este arquivo serah posterioremente substituido, nao acrescente nada.
  * Os valores das constantes sao arbitrarios, mas nao podem ser alterados.

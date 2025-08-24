@@ -1,6 +1,3 @@
- /* Gert Willem Folz - 00288550 
- * Trabalho 2 da disciplina de compiladores */
- 
  int main (int argc, char **argv) 
 {
     int token;

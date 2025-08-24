@@ -1,6 +1,3 @@
-/* Gert Willem Folz - 00288550 
- * Trabalho 2 da disciplina de compiladores */
-
 #include "hash.h"
 
 HASH_NODE *Table[HASH_SIZE];

@@ -1,6 +1,3 @@
-/* Gert Willem Folz - 00288550 
- * Trabalho 2 da disciplina de compiladores */
-
 
 %token KW_CHAR           
 %token KW_INT            

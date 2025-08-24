@@ -1,5 +1,3 @@
-# Gert Willem Folz - 00288550 
-# Trabalho 5 da disciplina de compiladores
 
 
 etapa5: main.o lex.yy.o y.tab.o hash.o ast.o tacs.o

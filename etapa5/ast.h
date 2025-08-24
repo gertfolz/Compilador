@@ -1,6 +1,3 @@
-/* Gert Willem Folz - 00288550 
- * Trabalho 5 da disciplina de compiladores */
-
 
 //AST - Abstract syntax tree
 #include <stdio.h>

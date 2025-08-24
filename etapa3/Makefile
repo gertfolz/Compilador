@@ -1,5 +1,3 @@
-# Gert Willem Folz - 00288550 
-# Trabalho 3 da disciplina de compiladores 
 
 etapa3: main.o lex.yy.o y.tab.o hash.o ast.o
 	gcc main.o lex.yy.o y.tab.o hash.o ast.o -o etapa3

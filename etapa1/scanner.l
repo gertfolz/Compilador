@@ -1,5 +1,3 @@
- /* Gert Willem Folz - 00288550 
- * Trabalho 1 da disciplina de compiladores */
 
 %{
     #include "tokens.h"
