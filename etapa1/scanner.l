@@ -40,14 +40,14 @@ return                           {return KW_RETURN;}
 "!="                             {return OPERATOR_DIF;}
 ".."                             {return OPERATOR_RANGE;}
 
-[a-zA-Z][ a-zA-Z0-9]*[a-zA-Z0-9] {yylval.symbol = hashInsert(yytext, TK_IDENTIFIER); return TK_IDENTIFIER;}
-[a-zA-Z]                         {yylval.symbol = hashInsert(yytext, TK_IDENTIFIER); return TK_IDENTIFIER;}
+[a-zA-Z][ a-zA-Z0-9]*[a-zA-Z0-9] {hashInsert(yytext, TK_IDENTIFIER); return TK_IDENTIFIER;}
+[a-zA-Z]                         {hashInsert(yytext, TK_IDENTIFIER); return TK_IDENTIFIER;}
 
-[0-9]+                           {yylval.symbol = hashInsert(yytext, LIT_INTEGER); return LIT_INTEGER;}  
+[0-9]+                           {hashInsert(yytext, LIT_INTEGER); return LIT_INTEGER;}  
 
-"'"[ -~]"'"                      {yylval.symbol = hashInsert(yytext, LIT_CHAR); return LIT_CHAR;}
+"'"[ -~]"'"                      {hashInsert(yytext, LIT_CHAR); return LIT_CHAR;}
 
-"\""([^"\n]|"\\\"")*"\""         {yylval.symbol = hashInsert(yytext, LIT_STRING); return LIT_STRING;}
+"\""([^"\n]|"\\\"")*"\""         {hashInsert(yytext, LIT_STRING); return LIT_STRING;}
 
 
 
